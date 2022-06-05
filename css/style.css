@@ -336,4 +336,8 @@ template {
 [hidden] {
   display: none;
 }
+
+.content {
+  padding: 0 10rem;
+}
 /*# sourceMappingURL=style.css.map */
