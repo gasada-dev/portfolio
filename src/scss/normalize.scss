@@ -196,6 +196,7 @@
   [type="button"],
   [type="reset"],
   [type="submit"] {
+    appearance: button;
     -webkit-appearance: button;
   }
   
@@ -288,6 +289,7 @@
    */
   
   [type="search"] {
+    appearance: button;
     -webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
   }
@@ -347,4 +349,17 @@
   [hidden] {
     display: none;
   }
-  
+
+// reset styles ↓↓↓↓↓↓
+
+  h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
