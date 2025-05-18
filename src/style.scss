@@ -1,11 +1,12 @@
 @import url(./scss/normalize.scss);
 
-html,
 body {
-  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.container{
+.container {
   padding: 1rem;
   width: 1280px;
   margin: 0 auto;
@@ -37,7 +38,7 @@ body {
   margin: 0.6rem 0;
 }
 
-.header-nav__item{
+.header-nav__item {
   font-size: 2rem;
   margin: 1rem;
 }
