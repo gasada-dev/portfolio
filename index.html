@@ -6,35 +6,80 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <img src="#" />
-        <nav class="header-nav">
-          <a href="#" class="header-nav__item">Home</a>
-          <a href="#" class="header-nav__item">Contact</a>
-          <a href="#" class="header-nav__item">Work</a>
-          <a href="#" class="header-nav__item">About</a>
-        </nav>
-      </header>
-    </div>
-    <div class="container">
-      <main class="main">
-        <img src="#" />
-        <h1 class="title">title</h1>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-          adipisci venia11m voluptas nulla aspernatur at omnis distinctio autem
-          delectus laborum asperiores a ipsum architecto consequuntur velit
-          doloremque, beatae quae modi.
-        </p>
-      </main>
-    </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <h1 class="header__inner__title title">Dmitry Svatko</h1>
+          <nav class="header__inner-nav">
+            <a href="#" class="link header-nav__item">Home</a>
+            <a href="#" class="link header-nav__item">Work</a>
+            <a href="#" class="link header-nav__item">Contact</a>
+            <a href="#" class="link header-nav__item">About</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__inner__text">
+              <h2 class="title">About me</h2>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                adipisci venia11m voluptas nulla aspernatur at omnis distinctio
+                autem delectus laborum asperiores a ipsum architecto
+                consequuntur velit doloremque, beatae quae modi. voluptas nulla
+                aspernatur at omnis distinctio autem delectus laborum asperiores
+                a ipsum voluptas nulla aspernatur at omnis distinctio autem
+                delectus laborum asperiores a ipsum voluptas nulla aspernatur at
+                omnis distinctio autem delectus laborum asperiores a ipsum
+              </p>
+            </div>
+            <div class="about__inner__photo">
+              <img class="img" src="./public/img/photo.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project">
+        <div class="container">
+          <div class="project__inner">
+            <div class="project__inner__item">
+              <img class="img" />
+              <a class="link"></a>
+              <p class="text"></p>
+            </div>
+            <div class="project__inner__item">
+              <img class="img" />
+              <a class="link"></a>
+              <p class="text"></p>
+            </div>
+            <div class="project__inner__item">
+              <img class="img" />
+              <a class="link"></a>
+              <p class="text"></p>
+            </div>
+            <div class="project__inner__item">
+              <img class="img" />
+              <a class="link"></a>
+              <p class="text"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="text">
+            Created by
+            <a class="link" href="https://github.com/gasada-dev">gasada</a>
+          </p>
+        </div>
+      </div>
+    </footer>
 
-    <div class="container">
-      <footer class="footer">
-        created by <a href="https://github.com/gasada-dev">gasada</a>
-      </footer>
-    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
