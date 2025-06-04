@@ -5,65 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
   </head>
+
   <body>
     <header class="header">
       <div class="container">
         <div class="header__inner">
           <h1 class="header__inner__title title">Dmitry Svatko</h1>
           <nav class="header__inner__nav">
-            <a href="#" class="link header__inner__nav__item">Home</a>
-            <a href="#" class="link header__inner__nav__item">Work</a>
-            <a href="#" class="link header__inner__nav__item">Contact</a>
-            <a href="#" class="link header__inner__nav__item">About</a>
+            <a href="#about" class="link header__inner__nav__item">About</a>
+            <a href="#projects" class="link header__inner__nav__item">Projects</a>
+            <a href="#contacts" class="link header__inner__nav__item">Contacts</a>
           </nav>
         </div>
       </div>
     </header>
     <main class="main">
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__inner">
             <div class="about__inner__text">
               <h2 class="title">About me</h2>
               <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                adipisci venia11m voluptas nulla aspernatur at omnis distinctio
-                autem delectus laborum asperiores a ipsum architecto
-                consequuntur velit doloremque, beatae quae modi. voluptas nulla
-                aspernatur at omnis distinctio autem delectus laborum asperiores
-                a ipsum voluptas nulla aspernatur at omnis distinctio autem
-                delectus laborum asperiores a ipsum voluptas nulla aspernatur at
-                omnis distinctio autem delectus laborum asperiores a ipsum
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis adipisci venia11m voluptas nulla
+                aspernatur at omnis distinctio autem delectus laborum asperiores a ipsum architecto consequuntur velit
+                doloremque, beatae quae modi. voluptas nulla aspernatur at omnis distinctio autem delectus laborum
+                asperiores a ipsum voluptas nulla aspernatur at omnis distinctio autem delectus laborum asperiores a
+                ipsum voluptas nulla aspernatur at omnis distinctio autem delectus laborum asperiores a ipsum
               </p>
             </div>
             <div class="about__inner__photo">
-              <img class="img" src="./public/img/photo.jpg" />
+              <img class="img" src="/img/photo.jpg" />
             </div>
           </div>
         </div>
       </section>
-      <section class="project">
+      <section class="projects" id="projects">
         <div class="container">
-          <div class="project__inner">
-            <div class="project__inner__item">
-              <img class="img" />
-              <a class="link"></a>
-              <p class="text"></p>
+          <div class="projects__inner">
+            <div class="projects__inner__item">
+              <img class="img" src="/img/whack_a_mole.png" />
+              <a class="link" href="https://github.com/gasada-dev/Whack-A-Mole">Whack A Mole</a>
+              <p class="text">You need to hit the moles with a toy hammer</p>
             </div>
-            <div class="project__inner__item">
-              <img class="img" />
-              <a class="link"></a>
-              <p class="text"></p>
+            <div class="projects__inner__item">
+              <img class="img" src="/img/raindrops.png" />
+              <a class="link" href="https://github.com/gasada-dev/raindrops">Raindrops</a>
+              <p class="text">Have time to solve mathematical examples before they fall down</p>
             </div>
-            <div class="project__inner__item">
-              <img class="img" />
-              <a class="link"></a>
-              <p class="text"></p>
-            </div>
-            <div class="project__inner__item">
-              <img class="img" />
-              <a class="link"></a>
-              <p class="text"></p>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts__inner">
+            <h2 class="title">Contacts</h2>
+            <div class="contacts__inner__links">
+              <a href="https://t.me/gasada_original" class="link">Telegtam</a>
+              <a href="https://www.instagram.com/gasada.original/" class="link">Instagtam</a>
             </div>
           </div>
         </div>
@@ -72,10 +70,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
-          <p class="text">
-            Created by
-            <a class="link" href="https://github.com/gasada-dev">gasada</a>
-          </p>
+          <p class="text">Created by <a class="link" href="https://github.com/gasada-dev">gasada</a></p>
         </div>
       </div>
     </footer>

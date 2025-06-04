@@ -1,19 +1,23 @@
-@use "./scss/normalize";
-@use "./scss/variables";
+@use './scss/normalize';
+@use './scss/variables';
 
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: var(--primary-color);
-  background: var(--secondary-color);
+  background: #4a4a4a;
 
   section {
-    margin: 1.2rem 0;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    background: var(--secondary-color);
+    border-radius: 30px;
   }
 
   .img {
     width: 100%;
+    border-radius: 15px;
   }
 
   .link {
@@ -45,15 +49,15 @@ body {
   .header {
     margin: 1.4rem 0;
 
-    .header__inner {
+    &__inner {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
 
-      .header__inner__title {
+      &__title {
         font-size: var(--veryBig-fontSize);
       }
-      .header__inner__nav__item {
+      &__nav__item {
         margin: 1rem;
       }
     }
@@ -61,28 +65,55 @@ body {
 
   .main {
     flex: 1 1 auto;
+    .about {
+      &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 
-    .about__inner {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-
-      .about__inner__photo {
-        width: 30%;
-        padding: 10px;
-        flex-shrink: 0;
+        &__photo {
+          width: 25%;
+          padding: 10px;
+          flex-shrink: 0;
+        }
       }
     }
 
-    .project__inner {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+    .projects {
+      &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        &__item {
+          width: 30%;
+          padding: 10px;
+          flex-shrink: 0;
+
+          & img {
+            height: 225px;
+            margin-bottom: 8px;
+          }
+        }
+      }
     }
   }
 
-  .footer__inner {
-    display: flex;
-    justify-content: center;
+  .contacts {
+    &__inner {
+      text-align: center;
+      &__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .footer {
+    &__inner {
+      display: flex;
+      justify-content: center;
+    }
   }
 }
